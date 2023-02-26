@@ -1,6 +1,6 @@
 # Leaflet maps setup
 ## L.map
-## first step to setting up a map
+### first step to setting up a map
 
 ```js
 let map = L.map({
