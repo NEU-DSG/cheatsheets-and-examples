@@ -25,10 +25,12 @@ L.tileLayer (url, {
 
 
 ## L.geoJSON
-###
+### setup predefined shapes
+
+Typically for adding in things like state/region boundaries to the map
 
 ```js
-// 
+// see https://leafletjs.com/reference.html#geojson
 L.geoJson(geoJsonData, {
     
 }).addTo(map);
