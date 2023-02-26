@@ -28,9 +28,10 @@ L.tileLayer (url, {
 ###
 
 ```js
-// see https://leafletjs.com/reference.html#tilelayer
 // 
-L.TileLayer.boundaryCanvas(url, geoJson).addTo(map);
+L.geoJson(geoJsonData, {
+    
+}).addTo(map);
 
 ```
 
